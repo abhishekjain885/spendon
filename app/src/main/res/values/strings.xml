@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spenden</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Toolbar titles -->
+    <string name="toolbar_title_home">Home</string>
+    <string name="toolbar_title_explore">Explore</string>
+    <string name="other_activity">Other Activity</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_item_home">Home</string>
+    <string name="nav_drawer_item_explore">Explore</string>
+    <string name="nav_drawer_help_and_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="nav_drawer_about">About</string>
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+    <string name="tag_nav_drawer_special_entry">nav_drawer_special_entry</string>
+    <string name="tools_text_account_information_username">Sotti</string>
+    <string name="tools_text_account_information_email">sotti@sottocorp.com</string>
+
+    <!-- Typeface names -->
+    <string name="typeface_roboto_regular">Roboto-Regular</string>
+    <string name="typeface_roboto_medium">Roboto-Medium</string>
+    <string name="title_activity_post_add">Post_add</string>
+
+    <string-array name="Categories">
+        <item>Books</item>
+        <item>Furniture</item>
+        <item>Clothes</item>
+        <item>Food</item>
+        <item>Electronics</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="title_activity_splash_screen">splash_screen</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_login_screen">Login_screen</string>
+    <string name="facebook_app_id">1637879569786094</string>
+    <string name="com_facebook_loginview_log_in_button_long">SIGN IN WITH FACEBOOK</string>
+    <string name="com_facebook_loginview_log_in_button">SIGN IN WITH FACEBOOK</string>
+    <string name="com_facebook_loginview_log_out_button">Logout</string>
+    <string name="title_activity_add">Add</string>
+
+</resources>

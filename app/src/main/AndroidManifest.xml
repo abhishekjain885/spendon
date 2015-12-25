@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhishek.spenden" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/BaseTheme.MainTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.example.abhishek.activities.splash_screen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.abhishek.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/BaseTheme.MainTheme.WithNavDrawer" >
+        </activity>
+        <activity
+            android:name="com.example.abhishek.activities.OtherActivity"
+            android:label="@string/other_activity"
+            android:parentActivityName="com.example.abhishek.activities.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.example.abhishek.activities.Post_add"
+            android:label="@string/title_activity_post_add" >
+        </activity>
+        <activity
+            android:name="com.example.abhishek.Tutorial"
+            android:label="@string/title_activity_tutorial" >
+        </activity>
+        <activity
+            android:name="com.example.abhishek.Login_screen"
+            android:label="@string/title_activity_login_screen" >
+        </activity>
+        <activity
+            android:name="com.example.abhishek.Add"
+            android:label="@string/title_activity_add" >
+        </activity>
+    </application>
+
+</manifest>
